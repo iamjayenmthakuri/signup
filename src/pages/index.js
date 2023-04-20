@@ -84,6 +84,12 @@ export default function Home() {
             <button className={styles.createButton}>Create account</button>
             <button className={styles.googleButton}>Sign in with google</button>
           </div>
+          <div className={styles.reference}>
+            Don't have an account?
+            <Link href="/login" legacyBehavior>
+              <a>Log in</a>
+            </Link>
+          </div>
         </div>
       </section>
     </>
