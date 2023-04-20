@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={styles.section}>
-        <div className="main">
+        <div>
           <div>
             <h1 className={styles.heading}>Create account</h1>
             <p className={styles.description}>
