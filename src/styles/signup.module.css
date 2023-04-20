@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29.7568px;
+  letter-spacing: -0.02em;
+  color: #1d1d1d;
+}
+.description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 12px;
+  margin-top: -28px;
+  letter-spacing: -0.02em;
+  color: #2d3748;
+}
+.formDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 35.75px;
+}
+.form label {
+  display: grid;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #2d3748;
+}
+.form label span {
+  font-size: 9px;
+  display: flex;
+}
+.form input {
+  width: 252.6px;
+  height: 33.87px;
+  border-radius: 3.52799px;
+  border: 0.705598px solid #d1d1d1;
+}
+.rem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.rem input,
+.terms input {
+  box-sizing: border-box;
+  width: 15.11px;
+  height: 45.11px;
+  border: 0.705598px solid #d1d1d1;
+  border-radius: 1.4112px;
+}
+.rem div,
+.terms div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.02em;
+  color: #2d3748;
+  margin-top: 20px;
+}
+.rem span,
+.terms p {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 12.87838px;
+  margin-left: 5px;
+}
+.rem div,
+.terms p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 12.87838px;
+  text-align: right;
+  letter-spacing: -0.02em;
+  color: #2d3748;
+  margin-top: 10px;
+}
+.terms {
+  letter-spacing: -0.02em;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.terms a {
+  color: #007aff;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+.createButton {
+  height: 33.87px;
+  width: 252.6px;
+  border: none;
+  background: #007aff;
+  border-radius: 3.52799px;
+  font-size: 13px;
+  color: #ffffff;
+}
+.googleButton {
+  height: 33.87px;
+  width: 252.6px;
+  border: none;
+  background: #2d3748;
+  border-radius: 3.52799px;
+  font-size: 13px;
+  color: #ffffff;
+}
